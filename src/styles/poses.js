@@ -31,10 +31,9 @@ export const slideUp = {
 };
 
 export const appear = {
-  initial: { opacity: 0, y: 10, visibility: 'hidden' },
+  initial: { opacity: 0, y: 10, visibility: 'visible' },
   enter: {
     opacity: 1,
-    visibility: 'visible',
     y: 0,
     transition: { duration: transitionDuration },
   },
