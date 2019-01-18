@@ -3,10 +3,10 @@ import Up from '../Up';
 import { List, Item } from './Footer.styles';
 
 const links = [
-  {
-    title: 'Email',
-    url: 'mailto:ben@abdullahceylan.com',
-  },
+  // {
+  //   title: 'Email',
+  //   url: 'mailto:ben@abdullahceylan.com',
+  // },
   {
     title: 'LinkedIn',
     url: 'https://www.linkedin.com/in/abdullahceylan',
