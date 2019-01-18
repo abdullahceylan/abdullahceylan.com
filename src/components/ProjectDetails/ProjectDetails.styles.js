@@ -20,7 +20,7 @@ export const Info = posed.div(appear);
 
 export const Description = styled.div`
   padding: 1rem 0 2rem 0;
-  max-width: 600px;
+  max-width: 750px;
   font-size: 1em;
   line-height: 1.6;
   @media screen and (min-width: ${props => props.theme.responsive.small}) {
@@ -36,6 +36,10 @@ export const Description = styled.div`
     @media (hover: none) {
       border-color: ${props => props.theme.colors.secondary} !important;
     }
+  }
+
+  p {
+    margin: 0 0 20px;
   }
 `;
 
