@@ -26,12 +26,13 @@ const OpenSourcePage = ({ data }) => {
 
 export const query = graphql`
   query {
-    allContentfulProject(limit: 1000, sort: { fields: [date], order: DESC }) {
+    allContentfulProject(limit: 1000, sort: { fields: [order], order: ASC }) {
       edges {
         node {
           title
           slug
           id
+          order
           date
           hide
           source

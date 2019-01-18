@@ -66,6 +66,7 @@ export const query = graphql`
       id
       slug
       date
+      order
       url
       source
       awards
@@ -104,7 +105,7 @@ export const query = graphql`
       }
       hide
     }
-    allContentfulProject(limit: 1000, sort: { fields: [date], order: DESC }) {
+    allContentfulProject(limit: 1000, sort: { fields: [order], order: ASC }) {
       edges {
         node {
           id
