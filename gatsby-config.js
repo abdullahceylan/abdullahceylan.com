@@ -45,7 +45,7 @@ module.exports = {
         icon: 'static/logos/logo-512.png',
       },
     },
-    `gatsby-plugin-offline`,
+    'gatsby-plugin-offline',
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
@@ -72,6 +72,7 @@ module.exports = {
         ? contentfulConfig.development
         : contentfulConfig.production,
     },
+    'gatsby-plugin-no-sourcemaps',
     'gatsby-plugin-netlify',
   ],
 };
