@@ -22,6 +22,11 @@ const links = [
     url: 'https://twitter.com/ceylanabdullah',
     extra: true,
   },
+  {
+    title: 'codecanyon',
+    url: 'https://codecanyon.net/user/abdullahceylan',
+    extra: true,
+  },
 ];
 
 const Footer = props => (
